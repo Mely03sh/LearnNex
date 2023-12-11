@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn-Nex - Plataforma Educativa</title>
+    <style>
+        .navbar {
+            background-color: #0598fa;
+            overflow: hidden;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            max-height: 100px;
+            /* Ajusta el tamaño según sea necesario */
+            margin-left: 20px;
+            /* Agrega espacio a la izquierda del logotipo */
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #eef9fc;
+            text-align: center;
+            padding: 20px 16px;
+            text-decoration: underline;
+            font-size: 1.2em;
+        }
+
+        .navbar a:hover {
+            background-color: #ee6407;
+        }
+
+        .welcome-message {
+            display: flex;
+            justify-content: center;
+            padding: 20px 10px 10px;
+            text-align: center;
+            position: relative;
+            margin-top: 60px;
+
+        }
+
+
+
+        .content {
+            max-width: 70%;
+            text-align: left;
+            position: relative;
+            z-index: 3;
+        }
+
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #ee6407;
+        }
+
+        .content p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #0423ec;
+        }
+
+        .content img {
+            max-width: 80%;
+            /* Tamaño mediano */
+            height: auto;
+            border-radius: 10px;
+           
+            margin-left: 10px;
+        }
+
+        .qr-code {
+            text-align: center;
+            margin: 100px;
+        }
+
+        .qr-code img {
+            max-width: 200%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #0598fa;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            color: #ecf0f1;
+        }
+
+        .footer a {
+            margin: 0 10px;
+            color: #ecf0f1;
+        }
+
+        .footer img {
+            height: 30px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="Logo Moda Femenina Minimalista Negro y Rosa.png" alt="Logo" class="logo">
+        <a href="index.html">INICIO</a>
+        <a href="docentes.html">DOCENTES</a>
+        <a href="materias.html">MATERIAS</a>
+        <a href="planes.html">PLANES</a>
+        <a href="iniciar-sesion.html">INICIAR SESIÓN</a>
+        <a href="test.html">DEJANOS CONOCERTE MÁS</a>
+
+    </div>
+
+    <div class="welcome-message">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>¡Bienvenidos a Learn-Nex!</h1>
+            <p>En Learn-Nex, abrazamos la misión de inspirar el aprendizaje y potenciar el crecimiento académico. Aquí,
+                cada estudiante es una historia de éxito en proceso. Nuestra plataforma está diseñada para proporcionar
+                un apoyo integral a niños y jóvenes que enfrentan desafíos en materias como cálculo, física, química y
+                matemáticas. Con recursos educativos cuidadosamente seleccionados, tutores dedicados y un ambiente
+                colaborativo, estamos aquí para guiarlos en cada paso del camino. ¡Descubre el poder de aprender, crecer
+                y triunfar en Learn-Nex!</p>
+        </div>
+        <div class="content img">
+            <img src="home-schooling-vector-flat-illustration-600nw-1770226085.webp" alt="QR Code">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="https://www.facebook.com/"><img src="Facebook_icon.svg.png" alt="Facebook Icon"></a>
+        <a href="https://www.whatsapp.com/"><img
+                src="png-transparent-computer-icons-logo-whatsapp-whatsapp-text-logo-whatsapp-icon.png"
+                alt="WhatsApp Icon"></a>
+        <a href="https://www.tiktok.com/"><img src="4834215.png" alt="TikTok Icon"></a>
+        <p>Teléfono: 123-456-7890</p>
+        <p>Dirección: Sahagún-Córdoba, Colombia</p>
+        <p>&copy; 2023 LEARN-NEX. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
